@@ -1,0 +1,3 @@
+stereovision using segmentation and graph-cuts
+http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1315016
+http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=969114

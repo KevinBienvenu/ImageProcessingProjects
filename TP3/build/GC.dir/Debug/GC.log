@@ -1,0 +1,35 @@
+﻿Build started 02/11/2014 15:42:02.
+     1>Project "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP3\build\GC.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "GC.dir\Debug\GC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\boulanger\Downloads\bis\opencv\build\include /IC:\Users\boulanger\Downloads\bis\opencv\build\include\opencv /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"GC.dir\Debug\\" /Fd"GC.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\graphCuts.cpp
+         graphCuts.cpp
+     1>..\graphCuts.cpp(110): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\graphCuts.cpp(119): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\graphCuts.cpp(128): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\graphCuts.cpp(137): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\graphCuts.cpp(144): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\graphCuts.cpp(145): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP3\build\Debug\GC.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_videostab2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ts2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_superres2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_stitching2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_contrib2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib /MANIFEST /ManifestFile:"GC.dir\Debug\GC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP3/build/Debug/GC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP3/build/Debug/GC.lib" /MACHINE:X86 GC.dir\Debug\GC.exe.embed.manifest.res
+         GC.dir\Debug\graphCuts.obj
+         GC.dir\Debug\graph.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"GC.dir\Debug\GC.exe.embed.manifest" /manifest GC.dir\Debug\GC.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         GC.vcxproj -> C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP3\build\Debug\GC.exe
+       FinalizeBuildStatus:
+         Deleting file "GC.dir\Debug\GC.unsuccessfulbuild".
+         Touching "GC.dir\Debug\GC.lastbuildstate".
+     1>Done Building Project "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP3\build\GC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.05

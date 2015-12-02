@@ -1,0 +1,36 @@
+﻿Build started 30/10/2014 14:26:43.
+     1>Project "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ComputeCustomBuildOutput:
+         Creating directory "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\".
+       CustomBuild:
+         Checking Build System
+         CMake is re-running because generate.stamp.list is missing.
+         -- Building for: Visual Studio 10 2010
+         -- The CXX compiler identification is MSVC 16.0.40219.1
+         -- Check for working CXX compiler using: Visual Studio 10 2010
+         -- Check for working CXX compiler using: Visual Studio 10 2010 -- works
+         -- Detecting CXX compiler ABI info
+         -- Detecting CXX compiler ABI info - done
+         -- OpenCV ARCH: x86
+         -- OpenCV RUNTIME: vc10
+         -- OpenCV STATIC: OFF
+         -- Found OpenCV 2.4.10 in C:/Users/boulanger/Downloads/bis/opencv/build/x86/vc10/lib
+         -- You might need to add C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\bin to your PATH to be able to run your applications.
+         -- The C compiler identification is MSVC 16.0.40219.1
+         -- Check for working C compiler using: Visual Studio 10 2010
+         -- Check for working C compiler using: Visual Studio 10 2010 -- works
+         -- Detecting C compiler ABI info
+         -- Detecting C compiler ABI info - done
+         -- Configuring done
+         -- Generating done
+         -- Build files have been written to: C:/Users/boulanger/Documents/Polytechnique/AnnÚe 3/INF552 Images/TP2/build
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\ZERO_CHECK.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.86

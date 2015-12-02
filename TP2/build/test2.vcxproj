@@ -1,0 +1,313 @@
+ï»¿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{0DE7BADE-45B1-44D3-A81E-17C1C2189F54}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>test2</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test2.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test2.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test2.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test2.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_videostab2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ts2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_superres2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_stitching2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_contrib2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/Debug/test2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/Debug/test2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_videostab2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ts2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_superres2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_stitching2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_contrib2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/Release/test2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/Release/test2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_videostab2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ts2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_superres2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_stitching2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_contrib2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/MinSizeRel/test2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/MinSizeRel/test2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\boulanger\Downloads\bis\opencv\build\include;C:\Users\boulanger\Downloads\bis\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_videostab2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ts2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_superres2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_stitching2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_contrib2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_photo2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_video2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_ml2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_features2d2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_flann2410d.lib;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\opencv_core2410d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/RelWithDebInfo/test2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/RelWithDebInfo/test2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2" "-BC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build" --check-stamp-file "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig-version.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVConfig.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-debug.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-release.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2" "-BC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build" --check-stamp-file "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig-version.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVConfig.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-debug.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-release.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2" "-BC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build" --check-stamp-file "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig-version.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVConfig.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-debug.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-release.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2" "-BC:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build" --check-stamp-file "C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/CMakeLists.txt;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig-version.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystem.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCXXCompiler.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVConfig.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-debug.cmake;C:\Users\boulanger\Downloads\bis\opencv\build\x86\vc10\lib\OpenCVModules-release.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompiler.cmake.in;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\3.0.2\CMakeCCompiler.cmake;C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\boulanger\Documents\Polytechnique\Année 3\INF552 Images\TP2\build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\images.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/boulanger/Documents/Polytechnique/Année 3/INF552 Images/TP2/build/ZERO_CHECK.vcxproj">
+      <Project>D332F0B7-C3C8-40EA-86A4-7D4E2317A920</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
